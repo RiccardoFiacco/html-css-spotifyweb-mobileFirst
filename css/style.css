@@ -99,6 +99,12 @@ img {
     justify-content: space-between;
     align-items: center;
 }
+.music-lenght{
+    width: 81%;
+    background-color: rgb(63, 63, 63);
+    border-radius: 999px;
+    line-height: 5px;
+}
 /* responsive */
 @media (min-width: 767.99px) {
 
