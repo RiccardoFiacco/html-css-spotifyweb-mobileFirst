@@ -116,6 +116,13 @@ img {
 .circle-bar{
     font-size: 8px;
 }
+.right-bottons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 151px;
+    column-gap: 10px;
+}
 /* responsive */
 @media (min-width: 767.99px) {
 
