@@ -46,7 +46,6 @@ img {
     justify-content: space-between;
     padding: 20px 10px;
 }
-
 .song-info{
     display: flex;
     justify-content: space-between;
@@ -56,6 +55,11 @@ img {
 }
 .player-img{
     width: 30px;
+}
+.song-name{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 /* responsive */
