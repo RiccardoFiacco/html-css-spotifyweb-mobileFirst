@@ -61,6 +61,12 @@ img {
     flex-direction: column;
     justify-content: flex-start;
 }
+.brano-nome{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 13px;
+    color: #7D7F84; 
+}
 
 /* responsive */
 @media (min-width: 767.99px) {
