@@ -47,6 +47,14 @@ img {
     padding: 20px 10px;
 }
 
+.song-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 123px;
+}
+
+
 /* responsive */
 @media (min-width: 767.99px) {
 
