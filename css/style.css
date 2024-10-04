@@ -32,3 +32,8 @@ img {
     flex-direction: column;
     background-color: #141922;
 }
+.main-content{
+    display: flex;
+    flex-grow: 1;
+    height: 0;
+}
