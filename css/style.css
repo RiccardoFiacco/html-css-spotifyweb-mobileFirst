@@ -81,6 +81,15 @@ img {
     align-items: center;
     width: 44%;
 }
+.management-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    padding-bottom: 10px;
+    font-size:20px;
+}
+
 /* responsive */
 @media (min-width: 767.99px) {
 
