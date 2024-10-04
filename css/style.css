@@ -25,3 +25,10 @@ img {
   --max: 100%;
   --sidebar: 190px;
 }
+/**/
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #141922;
+}
