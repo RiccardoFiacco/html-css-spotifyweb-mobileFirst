@@ -113,6 +113,9 @@ img {
     display: flex;
     justify-content: flex-end;
 }
+.circle-bar{
+    font-size: 8px;
+}
 /* responsive */
 @media (min-width: 767.99px) {
 
