@@ -89,6 +89,10 @@ img {
     padding-bottom: 10px;
     font-size:20px;
 }
+.play-button{
+    margin: 0px 8px;
+    font-size: 30px;
+}
 
 /* responsive */
 @media (min-width: 767.99px) {
