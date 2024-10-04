@@ -94,6 +94,11 @@ img {
     font-size: 30px;
 }
 
+.reproduction-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 /* responsive */
 @media (min-width: 767.99px) {
 
