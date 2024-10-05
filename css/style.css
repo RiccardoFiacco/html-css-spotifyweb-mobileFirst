@@ -79,11 +79,11 @@ img {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width: 44%;
+    width: 190px;
 }
 .management-buttons{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     column-gap: 10px;
     padding-bottom: 10px;
