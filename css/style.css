@@ -160,6 +160,12 @@ img {
     .right-commands{
         width: 29%;
     }
+    .logo{
+        width: 75%;
+    }
+    .logo-xsm{
+        display: none;
+    }
 }
 @media (min-width: 767.99px) {
     .management-buttons{
