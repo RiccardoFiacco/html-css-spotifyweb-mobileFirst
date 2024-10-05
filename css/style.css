@@ -54,6 +54,23 @@ img {
     row-gap: 12px;
     padding-top: 30px;
 }
+.selection-container{
+    position: relative;  
+}
+.green-selection-sidebar{
+    height: 100%;
+    width: 3px;
+    background-color: rgba(173, 255, 47, 100%);
+    position: absolute;
+    opacity: 0;
+}
+.button-sidebar{
+    padding-right: 13px;
+    padding-left: 17px;
+}
+.button-name{
+    display: none;
+}
 .logo-container{
     display: flex;
     justify-content: center;
