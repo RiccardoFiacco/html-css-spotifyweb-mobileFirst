@@ -209,7 +209,24 @@ img {
     .logo-xsm{
         display: none;
     }
-    
+    .button-name{
+        display: inline;
+    }
+    .sidebar{
+        align-items: flex-start;
+    }
+    .footer-sidebar{
+        padding-right: 13px;
+        padding-left: 17px;
+    }
+    .division-bar{
+        display: block;
+        width: 100%;
+    }
+    .footer-element{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
 }
 @media (min-width: 767.99px) {
     .management-buttons{
