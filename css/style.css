@@ -75,7 +75,9 @@ img {
     display: flex;
     justify-content: center;
 }
-
+.footer-sidebar{
+    margin-top: auto;
+}
 .logo-xsm{
     width: 75%;
 }
