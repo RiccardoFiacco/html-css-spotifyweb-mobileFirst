@@ -77,6 +77,21 @@ img {
 }
 .footer-sidebar{
     margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.division-bar{
+    display: none;
+}
+.download-btn{
+    color: #7D7F84; 
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.user-icon{
+   font-size: 30px; 
 }
 .logo-xsm{
     width: 75%;
