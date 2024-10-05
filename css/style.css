@@ -48,6 +48,14 @@ img {
     color:white;
 }
 
+.logo-container{
+    display: flex;
+    justify-content: center;
+}
+
+.logo-xsm{
+    width: 75%;
+}
 .player{
     display: flex;
     background-color: #282828;
