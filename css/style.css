@@ -37,6 +37,16 @@ img {
     flex-grow: 1;
     height: 0;
 }
+.sidebar{
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+    background-color: black;
+    padding-top: 20px;
+    color:white;
+}
 
 .player{
     display: flex;
