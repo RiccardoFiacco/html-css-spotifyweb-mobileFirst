@@ -72,9 +72,11 @@ img {
     flex-wrap: wrap;
     row-gap: 10px;
     color: #7D7F84;
+    
+}
+.w-100{
     width: 100%;
 }
-
 .icons-reproduction{
     flex-direction: column;
     justify-content: space-between;
@@ -124,12 +126,23 @@ img {
     column-gap: 10px;
 }
 /* responsive */
+@media (min-width: 575.99px) {
+    .brano-nome{
+        flex-wrap: nowrap;
+    } 
+    .song-info{
+        width: 24%;
+    }
+    .icons-reproduction{
+        width: 32%;
+    }
+    .right-bottons{
+        width: 29%;
+    }
+}
 @media (min-width: 767.99px) {
 
 }
 @media (min-width: 991.99px) {
-
-}
-@media (min-width: 1199.99px) {
 
 }
