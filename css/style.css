@@ -71,10 +71,9 @@ img {
     display: flex;
     flex-wrap: wrap;
     row-gap: 10px;
-    color: #7D7F84;
-    
+    color: #7D7F84;   
 }
-.w-100{
+.width-buttons{
     width: 100%;
 }
 .icons-reproduction{
@@ -100,6 +99,7 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    column-gap: 10px;
 }
 .music-lenght{
     width: 81%;
@@ -118,7 +118,7 @@ img {
 .circle-bar{
     font-size: 8px;
 }
-.right-bottons{
+.right-commands{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -127,6 +127,9 @@ img {
 }
 /* responsive */
 @media (min-width: 575.99px) {
+    .player-img{
+        width: 38px;
+    }
     .brano-nome{
         flex-wrap: nowrap;
     } 
@@ -136,13 +139,33 @@ img {
     .icons-reproduction{
         width: 32%;
     }
-    .right-bottons{
+    .right-commands{
         width: 29%;
     }
 }
 @media (min-width: 767.99px) {
-
+    .management-buttons{
+        justify-content: center;
+    }
+    .width-buttons{
+        width: 50%;  
+        padding-right: 10px;      
+    }
+    .song-info{
+        width: 23%;
+    }
+    .icons-reproduction{
+        width: 36%;
+    }
+    .right-commands{
+        width: 23%;
+    }
 }
 @media (min-width: 991.99px) {
-
+    .song-info{
+        width: 224px;
+    }
+    .right-commands{
+        width: 224px;
+    }
 }
