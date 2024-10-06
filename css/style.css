@@ -131,6 +131,12 @@ img {
 .logo-xsm{
     width: 75%;
 }
+.main-conteiner{
+    flex-grow: 1;
+    position: relative;
+    overflow-y: scroll;
+}
+
 .player{
     display: flex;
     background-color: #282828;
