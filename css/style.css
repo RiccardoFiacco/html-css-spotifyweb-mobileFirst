@@ -186,6 +186,7 @@ img {
     justify-content: flex-start;
     column-gap: 15px;
     flex-wrap: wrap;
+    row-gap: 15px;
 }
 .card{
     display: flex;   
@@ -355,6 +356,9 @@ img {
     .right-commands{
         width: 23%;
     }
+    .card{
+        width: calc(100%/4 - 15px);
+    }
 }
 @media (min-width: 991.99px) {
     .song-info{
@@ -362,5 +366,8 @@ img {
     }
     .right-commands{
         width: 224px;
+    }
+    .card{
+        width: calc(100%/6 - 15px);
     }
 }
