@@ -136,6 +136,16 @@ img {
     position: relative;
     overflow-y: scroll;
 }
+.up-bar{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: #080B12;
+    padding-right: 10px;
+    right: 0;
+    width: 100%;
+}
 
 .player{
     display: flex;
