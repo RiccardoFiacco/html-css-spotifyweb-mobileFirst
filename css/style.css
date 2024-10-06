@@ -146,7 +146,13 @@ img {
     right: 0;
     width: 100%;
 }
-
+.upgrade-button{
+    color: white;
+    border: 1px solid white;
+    font-size: 12px;
+    border-radius: 999px;
+    padding: 10px 20px;
+}
 .player{
     display: flex;
     background-color: #282828;
