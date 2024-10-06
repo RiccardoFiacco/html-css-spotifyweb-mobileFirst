@@ -177,7 +177,10 @@ img {
     padding-left: 19px;
     padding-top: 40px;
 }
-
+.title{
+    color:white; 
+    padding-bottom:20px;
+}
 .player{
     display: flex;
     background-color: #282828;
