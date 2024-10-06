@@ -197,8 +197,19 @@ img {
 .title-song{
     color: white;
 }
-.subtitle-song{
+.subtitle{
     color:#7D7F84;
+}
+.title-second-list{
+    padding-bottom: 30px;
+    padding-top: 40px;
+}
+.second-list{
+    padding-bottom: 30px;
+    padding-top: 40px;
+    display: flex;
+    
+    column-gap: 15px;
 }
 .player{
     display: flex;
