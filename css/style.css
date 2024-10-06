@@ -131,7 +131,7 @@ img {
 .logo-xsm{
     width: 75%;
 }
-.main-conteiner{
+.main-container{
     flex-grow: 1;
     position: relative;
     overflow-y: scroll;
