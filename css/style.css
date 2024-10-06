@@ -342,6 +342,9 @@ img {
         padding-top: 10px;
         padding-bottom: 10px;
     }
+    .selection{
+        width: calc(100%/3 - 10px);
+    }
     .creation-playlist{
         display: flex;
         row-gap: 12px;
@@ -370,6 +373,9 @@ img {
     .card{
         width: calc(100%/4 - 15px);
     }
+    .selection{
+        width: calc(100%/5 - 10px);
+    }
 }
 @media (min-width: 991.99px) {
     .song-info{
@@ -381,4 +387,8 @@ img {
     .card{
         width: calc(100%/6 - 15px);
     }
+    .selection{
+        width: calc(100%/6 - 10px);
+    }
+
 }
