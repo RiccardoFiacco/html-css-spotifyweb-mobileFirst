@@ -153,6 +153,25 @@ img {
     border-radius: 999px;
     padding: 10px 20px;
 }
+.content-up-bar{
+    background-color :#141922;
+    font-size: 14px;
+}
+.selection-up-bar{
+    display: flex;
+    justify-content: center;
+    padding-top: 23;
+    padding-bottom: 8px;
+    flex-wrap:wrap;
+    row-gap: 40px;
+    column-gap: 10px;
+}
+.selection{
+    color: #7D7F84;
+    display: flex;
+    justify-content: center;
+    width: calc(100%/4 - 10px);
+}
 .player{
     display: flex;
     background-color: #282828;
