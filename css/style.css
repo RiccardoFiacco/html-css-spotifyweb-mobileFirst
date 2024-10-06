@@ -181,6 +181,24 @@ img {
     color:white; 
     padding-bottom:20px;
 }
+.first-list{
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 15px;
+    flex-wrap: wrap;
+}
+.card{
+    display: flex;   
+    flex-direction: column;
+    row-gap: 12px;
+    width: calc(100%/2 - 15px);
+}
+.title-song{
+    color: white;
+}
+.subtitle-song{
+    color:#7D7F84;
+}
 .player{
     display: flex;
     background-color: #282828;
