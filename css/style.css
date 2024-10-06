@@ -172,6 +172,12 @@ img {
     justify-content: center;
     width: calc(100%/4 - 10px);
 }
+
+.song-list{
+    padding-left: 19px;
+    padding-top: 40px;
+}
+
 .player{
     display: flex;
     background-color: #282828;
